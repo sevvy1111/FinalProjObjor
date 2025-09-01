@@ -38,7 +38,7 @@
 - [ ] **Profile View**: Access and view user profile https://checkoutph.onrender.com/accounts/profile/
 - [ ] **Avatar Upload**: Test profile picture upload functionality with Cloudinary
 - [ ] **Profile Editing**: Modify profile information (bio, phone, avatar)
-- [ ] **Public Profile**: View other users' profiles https://checkoutph.onrender.com/accounts/user/Celvin
+- [ ] **Public Profile**: View other users' profiles
 - [ ] **Seller Ratings**: Check seller profile ratings and review system
 
 ---
@@ -164,7 +164,7 @@
 
 ### **Rating Calculations**
 - [ ] **Average Ratings**: Verify rating calculations
-- [ ] **Seller Ratings**: Check seller profile ratings https://checkoutph.onrender.com/accounts/user/Celvin
+- [ ] **Seller Ratings**: Check seller profile ratings
 
 ---
 
