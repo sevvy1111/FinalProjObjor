@@ -25,7 +25,7 @@
 - [ ] **Sign Up Form**: Complete registration with new email
 - [ ] **Form Validation**: Test required fields and validation messages
 - [ ] **Profile Creation**: Verify profile is created after registration
-- [ ] **Email Verification**: Check if verification process works
+- [ ] **Email Verification**: Check if verification process works(no user with same email)
 - [ ] **Phone Validation**: Test Philippine mobile number format (10 digits)
 
 ### **Login System**
