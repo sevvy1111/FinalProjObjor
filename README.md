@@ -192,7 +192,6 @@
 - [ ] **User Permissions**: Test user-specific access rights
 - [ ] **Admin Access**: Verify admin-only features
 - [ ] **CSRF Protection**: Test form submission security
-- [ ] **Ban System**: Test user suspension functionality
 
 ### **Data Validation**
 - [ ] **Input Sanitization**: Test with malicious input
