@@ -3,29 +3,12 @@
 
 ---
 
-## 🚀 **QUICK START TESTING**
-
-### **5-Minute Core Test**
-1. Register account → Search "phone" → Add to cart → Checkout → Message seller
-
-### **15-Minute Full Test**
-1. Complete core test → Create listing → Test messaging → Leave review → Test admin
-
----
-
 ## 🛠️ **TESTING SETUP**
 
 ### **Test Accounts**
 - **Admin**: ObjorAdmin / admin@123
 - **Test User 1**: [Create new account]
 - **Test User 2**: [Create new account]
-
-### **Test Data**
-- **Products**: Create sample listings in different categories
-- **Images**: Use provided sample images
-- **Locations**: Use different Philippine cities
-
-
 ---
 
 ## 🏠 **1. HOMEPAGE & NAVIGATION**
