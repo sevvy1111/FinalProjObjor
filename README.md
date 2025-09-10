@@ -3,6 +3,31 @@
 
 ---
 
+## 🚀 **QUICK START TESTING**
+
+### **5-Minute Core Test**
+1. Register account → Search "phone" → Add to cart → Checkout → Message seller
+
+### **15-Minute Full Test**
+1. Complete core test → Create listing → Test messaging → Leave review → Test admin
+
+---
+
+## 🛠️ **TESTING SETUP**
+
+### **Test Accounts**
+- **Admin**: ObjorAdmin / admin@123
+- **Test User 1**: [Create new account]
+- **Test User 2**: [Create new account]
+
+### **Test Data**
+- **Products**: Create sample listings in different categories
+- **Images**: Use provided sample images
+- **Locations**: Use different Philippine cities
+
+
+---
+
 ## 🏠 **1. HOMEPAGE & NAVIGATION**
 
 ### **Basic Navigation**
@@ -35,7 +60,7 @@
 - [ ] **Logout**: Verify user can log out successfully
 
 ### **User Profiles**
-- [ ] **Profile View**: Access and view user profile https://checkoutph.onrender.com/accounts/profile/
+- [ ] **Profile View**: Access and view user profile https://checkoutph.onrender.com/accounts/profile/ 
 - [ ] **Avatar Upload**: Test profile picture upload functionality with Cloudinary
 - [ ] **Profile Editing**: Modify profile information (bio, phone, avatar)
 - [ ] **Public Profile**: View other users' profiles
@@ -43,34 +68,11 @@
 
 ---
 
-## 📝 **3. PRODUCT LISTING CREATION & MANAGEMENT**
-
-### **Create Listing Form**
-- [ ] **Form Access**: Navigate to "Create Listing" page
-- [ ] **Required Fields**: Test all required field validations
-- [ ] **Category Selection**: Choose from hierarchical category system
-- [ ] **Image Upload**: Upload multiple product images
-- [ ] **Location Input**: Enter city and location details
-- [ ] **Price & Stock**: Set pricing and inventory quantities
-- [ ] **Condition Selection**: Choose between New/Used items
-- [ ] **Form Submission**: Successfully create and save listing
-
-### **Listing Management**
-- [ ] **My Listings**: View all user's created listings https://checkoutph.onrender.com/accounts/dashboard/
-- [ ] **Edit Listing**: Modify existing listing details
-- [ ] **Delete Listing**: Remove unwanted listings
-- [ ] **Status Updates**: Mark items as sold or available
-- [ ] **Featured Listings**: Test featured listing functionality(Must be admin to set a product to featured @https://checkoutph.onrender.com/admin/listings/listing/ )
-- [ ] **Test by creating a new listing**: Featured first before newest.
-- [ ] **Stock Management**: Verify inventory tracking @dashboard
-
----
-
-## 🔍 **4. SEARCH & FILTERING SYSTEM**
+## 🔍 **3. SEARCH & FILTERING SYSTEM**
 
 ### **Basic Search**
 - [ ] **Text Search**: Search by product title/description
-- [ ] **Search Results**: Verify relevant results are displayed (test "phone" "cars" "keyboard"
+- [ ] **Search Results**: Verify relevant results are displayed (test "phone" "cars" "keyboard")
 - [ ] **No Results**: Test search with no matching items
 - [ ] **Real-time Suggestions**: Test search suggestions functionality
 
@@ -91,10 +93,32 @@
 
 ---
 
+## 📝 **4. PRODUCT LISTING CREATION & MANAGEMENT**
+
+### **Create Listing Form**
+- [ ] **Form Access**: Navigate to "Create Listing" page
+- [ ] **Required Fields**: Test all required field validations
+- [ ] **Category Selection**: Choose from hierarchical category system
+- [ ] **Image Upload**: Upload multiple product images
+- [ ] **Location Input**: Enter city and location details
+- [ ] **Price & Stock**: Set pricing and inventory quantities
+- [ ] **Condition Selection**: Choose between New/Used items
+- [ ] **Form Submission**: Successfully create and save listing
+
+### **Listing Management**
+- [ ] **My Listings**: View all user's created listings https://checkoutph.onrender.com/accounts/dashboard/ 
+- [ ] **Edit Listing**: Modify existing listing details
+- [ ] **Delete Listing**: Remove unwanted listings
+- [ ] **Status Updates**: Mark items as sold or available
+- [ ] **Featured Listings**: Test featured listing functionality (Admin only: https://checkoutph.onrender.com/admin/listings/listing/)
+- [ ] **Stock Management**: Verify inventory tracking
+
+---
+
 ## 🛒 **5. SHOPPING CART SYSTEM**
 
 ### **Adding Items**
-- [ ] **Add to Cart**: Add products to shopping cart
+- [ ] **Add to Cart**: Add products to shopping cart 
 - [ ] **Cart Update**: Verify cart count increases
 - [ ] **Stock Validation**: Test adding more than available stock
 - [ ] **Multiple Items**: Add different products to cart
@@ -116,7 +140,7 @@
 ## 💳 **6. CHECKOUT & ORDER PROCESS(BETA)**
 
 ### **Checkout Flow**
-- [ ] **Checkout Access**: Proceed from cart to checkout
+- [ ] **Checkout Access**: Proceed from cart to checkout 
 - [ ] **Shipping Form**: Fill out delivery information
 - [ ] **Order Summary**: Review order details and costs
 - [ ] **Credit System**: Apply earned credits through reviews (ObjorAdmin has starting credits)
@@ -134,7 +158,17 @@
 
 ---
 
-## 💬 **7. REAL-TIME MESSAGING SYSTEM**
+## ❤️ **7. WISHLIST SYSTEM**
+
+### **Wishlist Management**
+- [ ] **Save Items**: Add items to wishlist
+- [ ] **Wishlist Access**: View saved items from profile and bot
+- [ ] **Remove Items**: Remove items from wishlist
+- [ ] **Wishlist Persistence**: Items remain saved across sessions
+
+---
+
+## 💬 **8. REAL-TIME MESSAGING SYSTEM**
 
 ### **Conversation Management**
 - [ ] **Start Conversation**: Initiate chat with seller/buyer
@@ -153,7 +187,7 @@
 
 ---
 
-## ⭐ **8. RATING & REVIEW SYSTEM(BETA)**
+## ⭐ **9. RATING & REVIEW SYSTEM(BETA)**
 
 ### **Review Creation**
 - [ ] **Leave Review**: Rate and comment on purchased items (Status must be "Delivered")
@@ -168,110 +202,72 @@
 
 ---
 
-## 🔔 **9. REAL-TIME NOTIFICATION SYSTEM**
+## 🔔 **10. NOTIFICATIONS & REAL-TIME FEATURES**
 
-### **Notification Types**
-- [ ] **Message Notifications**: New message alerts
+### **Notification System**
+- [ ] **Message Alerts**: New message notifications
 - [ ] **Order Updates**: Order status change notifications
-- [ ] **Review Notifications**: New review alerts
-- [ ] **Reports Notifications**: Reports Status notifications
-- [ ] **WebSocket Notifications**: Real-time notification delivery
+- [ ] **Review Alerts**: New review notifications
+- [ ] **Real-time Delivery**: WebSocket notification system
+- [ ] **Notification Management**: Mark as read, view all notifications
 
-### **Notification Management**
-- [ ] **Notification Count**: Badge shows unread count
-- [ ] **Mark as Read**: Click to mark notifications read
-- [ ] **Notification List**: View all notifications
-- [ ] **Real-time Updates**: Check if notifications appear instantly
-
----
-
-## 🛡️ **10. SECURITY & PERMISSIONS**
-
-### **Access Control**
-- [ ] **Guest Restrictions**: Verify guest user limitations
-- [ ] **User Permissions**: Test user-specific access rights
-- [ ] **Admin Access**: Verify admin-only features
-- [ ] **CSRF Protection**: Test form submission security
-
-### **Data Validation**
-- [ ] **Input Sanitization**: Test with malicious input
-- [ ] **File Upload Security**: Verify image upload restrictions
-- [ ] **SQL Injection**: Test search and form inputs
-- [ ] **XSS Prevention**: Check for script injection attempts
-- [ ] **Phone Number Validation**: Test Philippine mobile format
+### **Sound Effects**
+- [ ] **Audio Feedback**: Typing sounds, message alerts, badge updates
+- [ ] **Volume Control**: User preferences for sound settings
+- [ ] **Cross-Platform**: Test on desktop and mobile devices
 
 ---
 
-## 📱 **11. RESPONSIVE DESIGN & UX**
+## 🛡️ **11. SECURITY & VALIDATION**
 
-### **Mobile Experience**
-- [ ] **Mobile Navigation**: Test mobile menu functionality
-- [ ] **Touch Interactions**: Verify touch-friendly interface
-- [ ] **Mobile Forms**: Test form usability on small screens
-- [ ] **Image Scaling**: Check image responsiveness
-- [ ] **Mobile Search**: Test search functionality on mobile
-
+### **Security Features**
+- [ ] **Access Control**: Guest restrictions, user permissions, admin access
+- [ ] **Data Protection**: Input sanitization, file upload security
+- [ ] **Form Security**: CSRF protection, SQL injection prevention
+- [ ] **Phone Validation**: Philippine mobile number format (10 digits)
 
 ---
 
-## 🔧 **12. ADMIN & MODERATION FUNCTIONALITY**
+## 📱 **12. RESPONSIVE DESIGN**
 
-### **Admin Panel Access**
-- [ ] **Admin Login**: Access Django admin interface
+### **Mobile & Desktop Experience**
+- [ ] **Mobile Navigation**: Touch-friendly interface, mobile menu
+- [ ] **Form Usability**: Test forms on different screen sizes
+- [ ] **Image Responsiveness**: Check image scaling across devices
+- [ ] **Search Functionality**: Test search on mobile and desktop
+
+---
+
+## 🔧 **13. ADMIN & BUSINESS LOGIC**
+
+### **Admin Functions**
+- [ ] **Admin Panel**: Access Django admin interface
 - [ ] **User Management**: View and manage user accounts
-
-### **Content Management** https://checkoutph.onrender.com/reports/staff
-- [ ] **User Bans**: Test user suspension functionality
-- [ ] **Report Handling**: Process user reports
-- [ ] **Ban Appeals**: Test appeal system
-
----
-
-## 📊 **13. BUSINESS LOGIC**
-
+- [ ] **Content Moderation**: User bans, report handling, appeals
 
 ### **Business Logic**
-- [ ] **Stock Management**: Test inventory tracking
-- [ ] **Order Processing**: Verify order workflow
+- [ ] **Inventory Management**: Stock tracking, out-of-stock handling
+- [ ] **Order Processing**: Complete order lifecycle, status transitions
+- [ ] **Credit System**: Test credit earning and spending
+- [ ] **Data Integrity**: Verify data consistency across operations
 
 ---
 
-## 🤖 **14. SUPPORT CHAT(BETA)**
+## 🤖 **14. SUPPORT & REPORTING**
 
-### **Support System**
+### **Bot Support**
 - [ ] **Support Chat**: Access support chat interface
-- [ ] **Bot Responses**: Test Pre-loaded responses
-- [ ] **Order Tracking**: Test order status queries
+- [ ] **Order Tracking**: Test order status queries through bot
 - [ ] **Product Search**: Test product search through bot
-- [ ] **Wishlist Access**: Test wishlist functionality through bot
 
----
-
-## 📋 **15. REPORTING & MODERATION**
-
-### **User Reporting**
-- [ ] **Report Creation**: Create user reports
+### **Reporting System For Admin/Staff**
+- [ ] **User Reports**: Create and manage user reports
 - [ ] **Report Categories**: Test different report types
 - [ ] **Image Evidence**: Upload images with reports
-- [ ] **Report Status**: Track report progress
-- [ ] **Priority System**: Test priority levels
-
-### **Staff Dashboard**
-- [ ] **Staff Access**: Access staff moderation tools
-- [ ] **Report Management**: Process user reports
-- [ ] **User Bans**: Manage user suspensions
-- [ ] **Listing Moderation**: Remove inappropriate listings
-- [ ] **Appeal System**: Handle ban appeals
-
+- [ ] **Staff Dashboard**: Access moderation tools (https://checkoutph.onrender.com/reports/staff)
 
 ---
 
-## 📝 **16. ADDITIONAL FEATURES**
 
-### **Wishlist System**
-- [ ] **Save Items**: Add items to wishlist
-- [ ] **Wishlist Management**: View and manage saved items
-- [ ] **Remove Items**: Remove items from wishlist
-- [ ] **Wishlist Access**: Access through profile and bot
 
 
